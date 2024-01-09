@@ -23,7 +23,7 @@ The New Developers is a student-led organization at Mohawk College dedicated to 
 
 To contribute to this project, please follow the guidelines and conventions outlined in the Project Outline and the "Guide to Git Workflow" documents. Your adherence to these guidelines ensures a cohesive and efficient development process.
 
-- **Project Outline:** [Project Outline](https://docs.google.com/document/d/1Nhm6gn_-HgZfSjLMvatq4IQIRjIZbW5lHrmuctba1x8/edit)
+- **Project Outline:** [Project Outline](https://docs.google.com/document/d/1gckErz2vNhz4Wg_sB8u0BOIrs0OSCXWHD__Scoec9pw/edit#heading=h.zd0b0humbjsc)
 - **Guide to Git Workflow:** [Guide to Git Workflow](https://docs.google.com/document/d/1rFtcH1D9UOMEW1MUnUNmCOxH-tAo4nVtM6APcs2FxdY/edit)
 
 Please review the "Guide to Git Workflow" document linked within the Project Outline to ensure adherence to established conventions during your contributions.
