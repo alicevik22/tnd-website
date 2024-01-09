@@ -30,6 +30,6 @@ Please review the "Guide to Git Workflow" document linked within the Project Out
 
 ### Project Lead:
 
-- Mr. Nishkarsh Dubb (Club President) and Mr. Nisarg Nayak are the leads on this project and will be reviewing most of your pull requests. Please ensure your submissions are in line with the project guidelines and standards.
+- Mr. Nishkarsh Dubb and Mr. Nisarg Nayak are the leads on this project and will be reviewing most of your pull requests. Please ensure your submissions are in line with the project guidelines and standards.
 
 Your contributions, whether in the form of code, documentation, or ideas, are greatly appreciated and vital to the success of this project.
