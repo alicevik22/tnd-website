@@ -1,0 +1,276 @@
+body{
+    background-color: black;
+    color: rgb(130,150,110);
+}
+.card{
+    margin: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s; 
+    width: 18rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.introduction{
+    display: grid;
+    grid-template-columns:  repeat(3, minmax(400px,1fr));
+    grid-gap: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    width: 60%;
+}
+.representative-container h1{
+    text-align: center;
+    margin: auto 0;
+    font-size: 2.5em;
+    color: pink;
+}
+.introduction img{
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 1100px;
+    margin-left: 60px;
+}
+.club-representative-card{
+    border: 2px solid white;
+    padding: 20px;
+}
+.card-title{
+    color: red;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.about-club{
+    padding: 20px;
+    margin: 20px;
+}
+.about-club p.club-description{
+    font-size: 1.2em;
+    width: 60%;
+}
+.about-club h3{
+    align-items: center;
+    padding: 20px;
+    margin-left: 15%;
+    width: 80%;
+    font-size: 2.5em;
+}
+.aim-statement {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust as needed */
+}  
+.goals-list {
+    flex:1;
+    list-style: none;
+    padding: 0;
+    margin-left: 50px;
+}
+  
+.goals-list li {
+    margin-bottom: 5px;
+}
+.arrow {
+    margin-right: 5px;
+}
+@media screen and (max-width: 1200px){
+    
+    .about-club h1{
+        text-align: center;
+    }
+    .about-club p.club-description{
+        width: 100%;
+        font-size: 1em;
+    }
+    .about-club h3{
+        text-align: center;
+        width: 80%;
+        font-size: 2em;
+    }
+    .introduction{
+        display: grid;
+        grid-template-columns:  repeat(3, minmax(300px,1fr));
+        grid-gap: 25px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        width: auto;
+    }
+    .aim-statement{
+        flex-direction: column;
+        text-align: center;
+    }   
+    .aim-statement h2{
+        font-size: 2em;
+    }
+    .aim-statement i{
+        display: none;
+    }
+    .goals-list{
+        margin-left: 0PX;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:979px){
+    
+    .about-club h1{
+        text-align: center;
+    }
+    .about-club p.club-description{
+        width: 100%;
+        font-size: 1em;
+    }
+    .about-club h3{
+        text-align: center;
+        width: 80%;
+        font-size: 2em;
+    }
+    .introduction{
+        display: grid;
+        grid-template-columns:  repeat(2, minmax(350px,2fr));
+        grid-gap: 25px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        width: auto;
+    }
+    .aim-statement{
+        flex-direction: column;
+        text-align: center;
+    }   
+    .aim-statement h2{
+        font-size: 2em;
+    }
+    .aim-statement i{
+        display: none;
+    }
+    .goals-list{
+        margin-left: 0PX;
+    }
+
+
+}
+
+@media screen and (max-width: 768px){
+    
+    .about-club h1{
+        text-align: center;
+    }
+    .about-club p.club-description{
+        width: 100%;
+        font-size: 1em;
+    }
+    .about-club h3{
+        text-align: center;
+        width: 80%;
+        font-size: 2em;
+    }
+    .introduction{
+        display: grid;
+        grid-template-columns:  repeat(2, minmax(200px,2fr));
+        grid-gap: 25px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        width: auto;
+    }
+    .aim-statement{
+        flex-direction: column;
+        text-align: center;
+    }   
+    .aim-statement h2{
+        font-size: 2em;
+    }
+    .aim-statement i{
+        display: none;
+    }
+    .goals-list{
+        margin-left: 0PX;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    
+    .about-club h1{
+        text-align: center;
+    }
+    .about-club p.club-description{
+        width: 100%;
+        font-size: 1em;
+    }
+    .about-club h3{
+        text-align: center;
+        width: 80%;
+        font-size: 2em;
+    }
+    .introduction{
+        display: grid;
+        grid-template-columns:  repeat(1, minmax(350px,2fr));
+        grid-gap: 25px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        width: auto;
+    }
+    .aim-statement{
+        flex-direction: column;
+        text-align: center;
+    }   
+    .aim-statement h2{
+        font-size: 2em;
+    }
+    .aim-statement i{
+        display: none;
+    }
+    .goals-list{
+        margin-left: 0PX;
+    }
+}
+@media screen and (max-width:375px ){
+    
+    .about-club h1{
+        text-align: center;
+    }
+    .about-club p.club-description{
+        width: 100%;
+        font-size: 0.9em;
+    }
+    .about-club h3{
+        text-align: center;
+        width: 80%;
+        font-size: 1.3em;
+    }
+    .introduction{
+        display: grid;
+        grid-template-columns:  repeat(1, minmax(150px,1 fr));
+        grid-gap: 25px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        width: auto;
+    }
+    .aim-statement{
+        flex-direction: column;
+        text-align: center;
+    }   
+    .aim-statement h2{
+        font-size: 2em;
+    }
+    .aim-statement i{
+        display: none;
+    }
+    .goals-list{
+        margin-left: 0PX;
+    }
+}

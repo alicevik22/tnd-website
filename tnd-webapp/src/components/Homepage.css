@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    color: rgb(130,150,110);
+}
+.main-container .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.content {
+    flex: 1;
+} 
+.homepage-logo {
+    flex: 1;
+}
+.homepage-logo img {
+    width: 75%;
+    height: auto;
+}
+@media screen and (max-width : 600px){
+  .main-container .container{
+    flex-direction: row;
+  }
+  .content{
+    flex: 1;
+    font-size: 20px;
+  }
+  .homepage-logo{
+    display: none;
+  }
+}

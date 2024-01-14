@@ -1,0 +1,10 @@
+.resource-library-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 50vh;
+}
+.resource-library-class h1{
+    font-size: 4em;
+}
