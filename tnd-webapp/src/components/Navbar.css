@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+    color: rgb(130,150,110,);
+}.navbar {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky; 
+    z-index: 999;   
+    margin-bottom: 40px;
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    max-width: 1500px;
+}
+.navbar-logo img{
+  height: 100px;
+  width: 180px;
+  justify-self: start;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+}
+.navbar-logo{
+    flex: 1;
+    padding: 20px;
+    margin-top: 10px;
+}
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 20px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+}
+.nav-item{
+    padding: 10px;
+    margin: 5px;
+    list-style-type: none;
+}
+.nav-links {
+    color: rgb(130,150,110);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+}
+.nav-links:hover {
+    border-bottom: 2px solid #ff0000;
+    transition: all 0.2s ease-out;
+}
+.nav-links-mobile {
+    display: none;
+} 
+.menu-icon {
+    display: none;
+}
+@media screen and (max-width: 967px) {
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      opacity: 1;
+      width: 100%;
+      background: #242222;
+      z-index: 1;
+      transition: all 0.5s ease;
+      list-style: none;
+    }
+  
+    .nav-menu-active {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      opacity: 1;
+      width: 100%;
+      background: #242222;
+      z-index: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-links {
+      text-align: center;
+      width: 100%;
+      display: table;
+    }
+  
+    .menu-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+  
+    .fa-times {
+      color: rgb(130, 150, 110);
+      font-size: 2rem;
+    }
+  
+    .navbar-logo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+}
